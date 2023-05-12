@@ -1,0 +1,41 @@
+.about-container {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-container{
+    width: 100%;
+    font-size: 28px;
+    color: red;
+    border-bottom: 1px red solid;
+  }
+
+  .image-container{
+    display: flex;
+    align-items: start;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .image-container>img{
+    height: 60px;
+  }
+
+  .about-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 15px;
+  }
+
+  .about-title{
+    font-size: 24px;
+    color: red;
+  }

@@ -1,0 +1,35 @@
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links-container{
+    background: linear-gradient(to bottom, #f00000 0%,#f00000 3%,#bf3124 32%,#980404 92%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.navbar-navlink{
+    cursor: pointer;
+    padding: 3px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-navlink:hover{
+    background-color: #f00000;
+}
+
+.navbar-navlink.active{
+    background-color: #f00000;
+}

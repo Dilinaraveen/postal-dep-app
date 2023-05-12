@@ -1,0 +1,38 @@
+.employee-btn {
+    width: 200px;
+    font-size: 20px;
+    margin-top: 30px;
+    border: #f00000 solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .employee-btn:hover{
+      transition: all ease-in 0.1s;
+      transform: scale(1.02);
+  }
+
+  .employee-form{
+    display: flex;
+    gap: 30px;
+  }
+
+  .employee-input{
+    display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 30px;
+  }
+
+ .employee-btn{
+    height: 70px;
+ }
+
+ .employee-container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ }

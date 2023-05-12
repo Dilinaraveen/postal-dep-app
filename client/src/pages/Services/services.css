@@ -1,0 +1,55 @@
+.services-container{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.service-btn{
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f00000;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.tab-heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tab-description{
+    font-size: 14px;
+}
+
+.continue-btn-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    color: red;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.continue-btn{
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}

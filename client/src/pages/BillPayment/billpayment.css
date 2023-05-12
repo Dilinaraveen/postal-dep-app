@@ -1,0 +1,95 @@
+.billpayment-container {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.select-service {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.service-acc-no {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.service-amount {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.pay-btn {
+  width: 150px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: #f00000 solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pay-btn:hover{
+    transition: all ease-in 0.1s;
+    transform: scale(1.02);
+}
+
+.success-container{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.successful-label{
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.payment-info-container{
+  display: flex;
+  flex-direction: column;
+  border: #f00000 solid 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  margin-bottom: 20px;
+}
+
+.error{
+  width: 350px;
+  text-align: right;
+  font-size: 12px;
+  color: #f00000;
+}

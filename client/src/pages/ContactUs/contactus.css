@@ -1,0 +1,20 @@
+.contact-container {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.title-container {
+  width: 100%;
+  font-size: 28px;
+  color: red;
+  border-bottom: 1px red solid;
+}
+
+.contact-desc{
+    font-size: 20px;
+    margin: 20px 0;
+}

@@ -1,0 +1,46 @@
+.create-order-container {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-order-container-header{
+    margin-bottom: 50px;
+}
+
+.create-order-input {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.divider {
+  display: flex;
+  gap: 60px;
+}
+
+.create-order-btn {
+  width: 200px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: #f00000 solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.create-order-btn:hover{
+    transition: all ease-in 0.1s;
+    transform: scale(1.02);
+}
+
+.error{
+  font-size: 12px;
+  color: #f00000;
+}
